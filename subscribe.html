@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subscribe — The Pulse</title>
+  <meta name="description" content="Get one article every Sunday, free. Written by a teen for teens." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">The Pulse</a>
+      <div class="nav__links">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles</a>
+        <a href="about.html">About</a>
+        <a href="subscribe.html" class="nav__subscribe">Subscribe</a>
+      </div>
+      <button class="nav__hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile">
+      <a href="index.html">Home</a>
+      <a href="articles.html">Articles</a>
+      <a href="about.html">About</a>
+      <a href="subscribe.html" class="nav__subscribe">Subscribe Free</a>
+    </div>
+  </nav>
+
+  <!-- SUBSCRIBE PAGE -->
+  <div class="subscribe-page">
+    <div class="subscribe-card">
+      <div class="subscribe-card__logo">The Pulse</div>
+      <h1>One article.<br>Every Sunday.<br>Free.</h1>
+      <p style="color: var(--gray-4); font-size: 0.95rem; margin-top: 10px;">The heartbeat of high school — real topics, real research, real voice.</p>
+
+      <div class="subscribe-card__perks">
+        <div class="subscribe-card__perk">
+          <div class="subscribe-card__perk-icon">✓</div>
+          <span>One in-depth article every Sunday morning</span>
+        </div>
+        <div class="subscribe-card__perk">
+          <div class="subscribe-card__perk-icon">✓</div>
+          <span>Covering sports, money, mental health, science, and local stories</span>
+        </div>
+        <div class="subscribe-card__perk">
+          <div class="subscribe-card__perk-icon">✓</div>
+          <span>Written by a teen, for teens — backed by real research</span>
+        </div>
+        <div class="subscribe-card__perk">
+          <div class="subscribe-card__perk-icon">✓</div>
+          <span>Always free. No ads. No spam. Unsubscribe anytime.</span>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <form class="subscribe-form" action="#" method="post">
+        <input type="email" placeholder="Your email address" required />
+        <button class="btn-primary" type="submit">Subscribe — It's Free</button>
+      </form>
+      <p class="subscribe-next">You'll get your first article this Sunday.</p>
+
+      <!-- Success state -->
+      <div class="success-msg">
+        <div class="success-msg__icon">✓</div>
+        <h3>You're subscribed!</h3>
+        <p>Your first article arrives this Sunday morning. Check your inbox — and check your spam folder just in case.</p>
+        <a href="index.html" class="btn-primary" style="display:inline-block; margin-top: 8px;">Back to home</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__logo">The Pulse</div>
+    <p class="footer__mission">The heartbeat of high school — real topics, real research, real voice.</p>
+    <div class="footer__socials">
+      <a href="#">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        @thepulse
+      </a>
+      <a href="#">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.76a4.85 4.85 0 01-1.01-.07z"/></svg>
+        @thepulse
+      </a>
+    </div>
+    <p class="footer__copy">© 2025 The Pulse. McKinney, Texas.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

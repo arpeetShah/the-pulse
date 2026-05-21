@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Articles — The Pulse</title>
+  <meta name="description" content="Browse all articles from The Pulse — covering sports, money, mental health, science, and local spotlights." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">The Pulse</a>
+      <div class="nav__links">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles</a>
+        <a href="about.html">About</a>
+        <a href="subscribe.html" class="nav__subscribe">Subscribe</a>
+      </div>
+      <button class="nav__hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile">
+      <a href="index.html">Home</a>
+      <a href="articles.html">Articles</a>
+      <a href="about.html">About</a>
+      <a href="subscribe.html" class="nav__subscribe">Subscribe Free</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="page-header__inner">
+      <h1>All Articles</h1>
+      <p>Every piece, all topics, going back to the beginning.</p>
+      <div class="filter-tabs-wrapper">
+        <div class="search-bar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input id="article-search" type="text" placeholder="Search articles…" />
+        </div>
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All Topics</button>
+          <button class="filter-btn" data-filter="sports">🏆 Sports</button>
+          <button class="filter-btn" data-filter="money">💰 Money</button>
+          <button class="filter-btn" data-filter="mental">🧠 Mental Health</button>
+          <button class="filter-btn" data-filter="science">🔬 Science</button>
+          <button class="filter-btn" data-filter="local">📍 Local Spotlights</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARTICLES LIST -->
+  <section class="section">
+    <div class="container">
+      <div class="articles-list" id="articles-list">
+
+        <a href="articles/grades-and-fun.html" class="article-list-card" data-category="mental" style="display:block;">
+          <article class="article-card">
+            <div class="article-card__meta">
+              <span class="tag tag--mental">Mental Health</span>
+              <span class="article-card__date">May 18, 2025</span>
+            </div>
+            <h3 class="article-card__title">You Don't Have to Choose Between Grades and Having Fun — You Just Have to Know When</h3>
+            <p class="article-card__excerpt">Every high schooler is navigating the same tension. Here is what nobody is telling you about how to handle it — and the research that actually backs it up.</p>
+            <span class="read-link">Read article</span>
+          </article>
+        </a>
+
+        <a href="articles/making-money-in-high-school.html" class="article-list-card" data-category="money" style="display:block;">
+          <article class="article-card">
+            <div class="article-card__meta">
+              <span class="tag tag--money">Money</span>
+              <span class="article-card__date">May 11, 2025</span>
+            </div>
+            <h3 class="article-card__title">How to Start Making Real Money Before You Graduate</h3>
+            <p class="article-card__excerpt">You don't need a work permit or a boss. Here's what actually works for high schoolers who want to earn on their own terms.</p>
+            <span class="read-link">Read article</span>
+          </article>
+        </a>
+
+        <a href="articles/brain-at-night.html" class="article-list-card" data-category="science" style="display:block;">
+          <article class="article-card">
+            <div class="article-card__meta">
+              <span class="tag tag--science">Science</span>
+              <span class="article-card__date">May 4, 2025</span>
+            </div>
+            <h3 class="article-card__title">Why Your Brain Actually Works Differently After 10 PM</h3>
+            <p class="article-card__excerpt">There's a reason late-night studying feels different. The science of your teen brain explains everything — including why you can't fall asleep even when you're exhausted.</p>
+            <span class="read-link">Read article</span>
+          </article>
+        </a>
+
+        <a href="articles/sports-recruiting-truth.html" class="article-list-card" data-category="sports" style="display:block;">
+          <article class="article-card">
+            <div class="article-card__meta">
+              <span class="tag tag--sports">Sports</span>
+              <span class="article-card__date">Apr 27, 2025</span>
+            </div>
+            <h3 class="article-card__title">The Truth About Getting Recruited That Nobody Told Me</h3>
+            <p class="article-card__excerpt">College sports recruitment is a game most high schoolers play without knowing the rules. Here's what I found out talking to coaches and athletes.</p>
+            <span class="read-link">Read article</span>
+          </article>
+        </a>
+
+        <a href="articles/mckinney-startup-scene.html" class="article-list-card" data-category="local" style="display:block;">
+          <article class="article-card">
+            <div class="article-card__meta">
+              <span class="tag tag--local">Local Spotlights</span>
+              <span class="article-card__date">Apr 20, 2025</span>
+            </div>
+            <h3 class="article-card__title">McKinney Has a Startup Scene and Most Locals Have No Idea</h3>
+            <p class="article-card__excerpt">From teen founders to small business owners rewriting what a Texas suburb looks like — here's what's quietly building in our backyard.</p>
+            <span class="read-link">Read article</span>
+          </article>
+        </a>
+
+      </div>
+      <p class="no-results">No articles match your search. Try a different keyword or category.</p>
+    </div>
+  </section>
+
+  <!-- SUBSCRIBE STRIP -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="subscribe-strip">
+        <h2>Never miss an article.</h2>
+        <p>Every Sunday, one new piece lands in your inbox. Free, always.</p>
+        <form class="inline-form" action="#" method="post">
+          <input type="email" placeholder="Your email" required />
+          <button class="btn-primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__logo">The Pulse</div>
+    <p class="footer__mission">The heartbeat of high school — real topics, real research, real voice.</p>
+    <div class="footer__socials">
+      <a href="#">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        @thepulse
+      </a>
+      <a href="#">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.76a4.85 4.85 0 01-1.01-.07z"/></svg>
+        @thepulse
+      </a>
+    </div>
+    <p class="footer__copy">© 2025 The Pulse. McKinney, Texas.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    /* Pre-filter via URL param */
+    const params = new URLSearchParams(window.location.search);
+    const cat = params.get('category');
+    if (cat) {
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        if (btn.dataset.filter === cat) btn.click();
+      });
+    }
+  </script>
+</body>
+</html>
