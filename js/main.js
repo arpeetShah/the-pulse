@@ -17,14 +17,22 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  /* ── Subscribe forms ── */
+  /* ── Subscribe forms → email fallback (no newsletter backend yet) ──
+     Opens the reader's mail app with a pre-filled message to Arpeet,
+     so signups actually reach a real inbox instead of vanishing.     */
+  const SUBSCRIBE_EMAIL = 'arpeet.s.shah@gmail.com';
   document.querySelectorAll('.subscribe-form, .hero__form, .inline-form').forEach(form => {
     form.addEventListener('submit', e => {
       e.preventDefault();
       const input = form.querySelector('input[type="email"]');
-      if (!input || !input.value) return;
+      const addr = input && input.value ? input.value.trim() : '';
+      const subject = encodeURIComponent('Subscribe to The Pulse');
+      const body = encodeURIComponent(
+        'Hi Arpeet,\n\nI’d like to subscribe to The Pulse.\n\nMy email: ' + addr + '\n'
+      );
+      window.location.href = 'mailto:' + SUBSCRIBE_EMAIL + '?subject=' + subject + '&body=' + body;
 
-      /* Check if this is the subscribe page card */
+      /* Subscribe-page card: show the "check your email" state */
       const card = form.closest('.subscribe-card');
       if (card) {
         const formEl = card.querySelector('.subscribe-form');
@@ -36,17 +44,16 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      /* Inline forms — swap button text */
+      /* Inline forms: nudge the reader to actually hit send */
       const btn = form.querySelector('button[type="submit"]');
-      if (btn) {
-        const orig = btn.textContent;
-        btn.textContent = 'You\'re in ✓';
-        btn.style.background = '#085041';
-        input.value = '';
+      if (btn && !btn.dataset.orig) {
+        btn.dataset.orig = btn.textContent;
+        btn.textContent = 'Check your email ↗';
+        if (input) input.value = '';
         setTimeout(() => {
-          btn.textContent = orig;
-          btn.style.background = '';
-        }, 3000);
+          btn.textContent = btn.dataset.orig;
+          delete btn.dataset.orig;
+        }, 4000);
       }
     });
   });
