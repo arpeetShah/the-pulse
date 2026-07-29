@@ -1,0 +1,39 @@
+<svg width="100%" viewBox="0 0 680 680" role="img" style="" xmlns="http://www.w3.org/2000/svg">
+<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">The Pulse final profile picture no dot</title>
+<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Clean minimal circular profile picture for The Pulse — dark background with heartbeat line and THE PULSE text</desc>
+
+<defs>
+  <clipPath id="circ">
+    <circle cx="340" cy="340" r="320"/>
+  </clipPath>
+<mask id="imagine-text-gaps-5e11tp" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="680" fill="white"/><rect x="265.8824462890625" y="209.665771484375" width="148.2350616455078" height="231.08444213867188" fill="black" rx="2"/><rect x="267.6348571777344" y="207.1796875" width="144.7302703857422" height="225.5288543701172" fill="black" rx="2"/><rect x="130.77980041503906" y="498.4302978515625" width="418.44036865234375" height="63.0280647277832" fill="black" rx="2"/><rect x="281.0924987792969" y="561.4166259765625" width="117.81498718261719" height="22.05564308166504" fill="black" rx="2"/></mask></defs>
+
+<circle cx="340" cy="340" r="320" fill="#1A1A2E" style="fill:rgb(26, 26, 46);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<g clip-path="url(#circ)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+
+  <circle cx="340" cy="340" r="200" fill="#16213E" opacity="0.6" style="fill:rgb(22, 33, 62);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <circle cx="340" cy="340" r="190" fill="none" stroke="#C2748A" stroke-width="1" opacity="0.25" style="fill:none;stroke:rgb(194, 116, 138);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="340" cy="340" r="210" fill="none" stroke="#C2748A" stroke-width="0.5" opacity="0.15" style="fill:none;stroke:rgb(194, 116, 138);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.15;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <text x="340" y="395" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="200" font-weight="700" fill="#C2748A" opacity="0.15" style="fill:rgb(194, 116, 138);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.15;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:200px;font-weight:700;text-anchor:middle;dominant-baseline:auto">P</text>
+
+  <text x="340" y="388" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="195" font-weight="700" fill="#FFFFFF" opacity="0.06" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.06;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:195px;font-weight:700;text-anchor:middle;dominant-baseline:auto">P</text>
+
+  <polyline points="140,340 190,340 215,285 232,395 248,308 260,368 278,340 340,340" fill="none" stroke="#C2748A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" mask="url(#imagine-text-gaps-5e11tp)" style="fill:none;stroke:rgb(194, 116, 138);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:round;stroke-linejoin:round;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <polyline points="340,340 380,340 405,272 424,408 442,280 458,392 480,340 540,340" fill="none" stroke="#C2748A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" mask="url(#imagine-text-gaps-5e11tp)" style="fill:none;stroke:rgb(194, 116, 138);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <polyline points="540,340 570,340 588,298 600,372 615,340 640,340" fill="none" stroke="#C2748A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" style="fill:none;stroke:rgb(194, 116, 138);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:round;stroke-linejoin:round;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <text x="340" y="548" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#FFFFFF" letter-spacing="10" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:52px;font-weight:700;text-anchor:middle;dominant-baseline:auto">THE PULSE</text>
+
+  <text x="340" y="578" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#C2748A" letter-spacing="4" opacity="0.85" style="fill:rgb(194, 116, 138);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:middle;dominant-baseline:auto">EST. 2025</text>
+
+</g>
+
+<circle cx="340" cy="340" r="320" fill="none" stroke="#C2748A" stroke-width="3" opacity="0.4" style="fill:none;stroke:rgb(194, 116, 138);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="340" cy="340" r="316" fill="none" stroke="#C2748A" stroke-width="0.5" opacity="0.2" style="fill:none;stroke:rgb(194, 116, 138);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.2;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+</svg>
