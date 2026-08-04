@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Can a Computer Predict a Seizure? — The Pulse</title>
+  <meta name="description" content="What brainwaves reveal about epilepsy — and how close we actually are to catching a seizure before it starts." />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__logo">The Pulse</a>
+      <div class="nav__links">
+        <a href="../index.html">Home</a>
+        <a href="../articles.html">Articles</a>
+        <a href="../about.html">About</a>
+        <a href="../subscribe.html" class="nav__subscribe">Subscribe</a>
+      </div>
+      <button class="nav__hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile">
+      <a href="../index.html">Home</a>
+      <a href="../articles.html">Articles</a>
+      <a href="../about.html">About</a>
+      <a href="../subscribe.html" class="nav__subscribe">Subscribe Free</a>
+    </div>
+  </nav>
+
+  <main class="article-page">
+    <a href="../articles.html" class="article-page__back">All articles</a>
+
+    <div class="article-page__meta">
+      <span class="tag tag--science">Science &amp; How Things Work</span>
+      <span class="article-page__date">August 2, 2025</span>
+    </div>
+
+    <h1 class="article-page__title">Can a Computer Predict a Seizure?</h1>
+    <p class="article-page__byline">By <strong>The Pulse Founder</strong> &nbsp;·&nbsp; 6 min read</p>
+
+    <div class="article-page__hero-img" aria-hidden="true">🧠</div>
+
+    <div class="article-body">
+
+      <p>Around 50 million people worldwide live with epilepsy, and the hardest part isn't always the seizures themselves — it's that they arrive without warning. You can't plan around a thing you can't see coming. So here's a question I've been sitting with, and actually researching: could a computer catch a seizure from brain activity alone — and one day, maybe, catch it <em>before</em> it starts?</p>
+
+      <p>To even ask that, you need to know what a brain "looks like" as data. That's what EEG — electroencephalography — is for. Electrodes rest on the scalp and measure the tiny electrical voltage produced by neurons firing underneath, hundreds of times per second, across many spots on the head at once. The result is a set of squiggly lines. To a trained neurologist, those squiggles are readable. The whole idea behind the research is: can they be readable to a computer, too?</p>
+
+      <blockquote>"During a seizure, huge populations of neurons stop firing independently and start firing together — in synchronized, rhythmic bursts. Synchronized signals add up instead of cancelling out, which is exactly why seizure brainwaves look so much bigger and more regular than calm ones."</blockquote>
+
+      <p>That synchronization turns out to be measurable. If you take a calm ten-second stretch of EEG and a ten-second stretch of seizure and just look at them, the seizure section swings far more dramatically. Turn "how much it swings" into an actual number — statisticians call it variance — and the difference isn't subtle: in the recordings I've analyzed from a public research database, seizure windows had roughly <strong>nine times</strong> the variance of normal ones, and that held up when I tested a second, separate seizure. A repeatable gap like that is the foundation everything else is built on.</p>
+
+      <p>But here's the honest distinction that matters most. <strong>Detecting</strong> a seizure — flagging one while it's already happening — is a solved-ish problem; computers are already decent at it. <strong>Predicting</strong> one — spotting the "pre-ictal" window in the minutes before a seizure clinically begins — is a genuinely unsolved problem in real neuroscience. The brain doesn't hand over a clean warning signal. Some studies find faint pre-seizure patterns; others can't reproduce them; false alarms are a huge issue, because an early-warning system that cries wolf is worse than none at all.</p>
+
+      <p>So the truthful answer to the title is: a computer can already <em>detect</em> seizures reasonably well, and <em>prediction</em> is still on the frontier — close enough to be worth chasing, far enough that nobody's fully cracked it. And that's the part that keeps me working on it. If it ever does get solved, it wouldn't be a party trick — it would mean genuine early warning for millions of people who currently live at the mercy of a moment they can't anticipate. That's a problem worth a lot of small, careful, unglamorous steps.</p>
+
+    </div>
+
+    <div class="sources-section">
+      <h3>Sources</h3>
+      <ol>
+        <li>Shoeb, A. &amp; Guttag, J. (2010). Application of machine learning to epileptic seizure detection. <em>ICML.</em> (CHB-MIT Scalp EEG Database, PhysioNet.)</li>
+        <li>Kuhlmann, L. et al. (2018). Seizure prediction — ready for a new era. <em>Nature Reviews Neurology, 14</em>(10), 618–630.</li>
+        <li>Mormann, F. et al. (2007). Seizure prediction: the long and winding road. <em>Brain, 130</em>(2), 314–333.</li>
+        <li>World Health Organization (2024). <em>Epilepsy — Fact Sheet.</em></li>
+      </ol>
+    </div>
+
+    <div class="related-section">
+      <h3>More to read</h3>
+      <div class="related-grid">
+        <a href="brain-at-night.html" style="display:block;">
+          <article class="article-card">
+            <div class="article-card__meta">
+              <span class="tag tag--science">Science</span>
+              <span class="article-card__date">May 4, 2025</span>
+            </div>
+            <h3 class="article-card__title">Why Your Brain Actually Works Differently After 10 PM</h3>
+            <span class="read-link">Read</span>
+          </article>
+        </a>
+        <a href="how-to-actually-study.html" style="display:block;">
+          <article class="article-card">
+            <div class="article-card__meta">
+              <span class="tag tag--science">Science</span>
+              <span class="article-card__date">May 25, 2025</span>
+            </div>
+            <h3 class="article-card__title">How to Actually Study — Not Just Reread Your Notes</h3>
+            <span class="read-link">Read</span>
+          </article>
+        </a>
+      </div>
+    </div>
+
+    <div class="article-subscribe-strip">
+      <h3>Enjoyed this? Get every article in your inbox every Sunday.</h3>
+      <p>One article a week. Free, always. No spam.</p>
+      <form class="inline-form" action="#" method="post">
+        <input type="email" placeholder="Your email address" required />
+        <button class="btn-primary" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__logo">The Pulse</div>
+    <p class="footer__mission">The heartbeat of high school — real topics, real research, real voice.</p>
+    <div class="footer__socials">
+      <a href="https://www.instagram.com/read_thepulse/" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg> @read_thepulse</a>
+      <a href="https://www.tiktok.com/@read_thepulse" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.76a4.85 4.85 0 01-1.01-.07z"/></svg> @read_thepulse</a>
+    </div>
+    <p class="footer__copy">© 2025 The Pulse. McKinney, Texas.</p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
